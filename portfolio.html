@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/portfolio.css" />
     <link rel="stylesheet" href="css/responsivo.css" />
+    <script>document.documentElement.classList.add('js');</script>
 
     <title>Bikcraft - Portfólio</title>
   </head>
@@ -37,7 +38,7 @@
       </div>
     </section>
 
-    <section class="container">
+    <section class="container" data-slide='quote'>
       <blockquote class="quote-clientes">
         <p>
           “O verdadeiro segredo da felicidade está em ter um genuíno interesse
@@ -45,13 +46,24 @@
         </p>
         <cite>Barbara Moss</cite>
       </blockquote>
+
+      <blockquote class="quote-clientes">
+        <p>
+          “Pedalar é um estado de espírito. Só quem tem uma bike sabe o que é dar aquele rolê. Vá de bike, seja Bikcraft. Incorpore o espírito!”
+        </p>
+        <cite>Tommy Shelby</cite>
+      </blockquote>
+
+      <blockquote class="quote-clientes">
+        <p>
+          “Tenha fé naquilo que te faça feliz. A energia é a chave do negócio, vá de bicicleta, seja para o trabalho ou um simples encontro com a galera.”
+        </p>
+        <cite>Roberto Tataglia</cite>
+      </blockquote>
     </section>
 
     <section class="portfolio">
-      <div class="container">
-        <h2 class="subtitulo">
-          Portfólio
-        </h2>
+      <div class="container" data-slide='portfolio'>
         <ul class='portfolio_lista'>
           <li class='grid-8'>
             <img src="img/portfolio/retro.jpg" alt="Bicicleta retro">
@@ -59,6 +71,22 @@
 
           <li class='grid-8'>
             <img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio">
+          </li>
+
+          <li class='grid-16'>
+            <img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte">
+          </li>
+        </ul>
+
+        <ul class='portfolio_lista'>
+
+          <li class='grid-8'>
+            <img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio">
+          </li>
+
+
+          <li class='grid-8'>
+            <img src="img/portfolio/retro.jpg" alt="Bicicleta retro">
           </li>
 
           <li class='grid-16'>
@@ -122,5 +150,8 @@
         </div>
       </div>
     </footer>
+
+    <script src='./js/simple-slide.js'></script>
+    <script src='./js/script.js'></script>
   </body>
 </html>
