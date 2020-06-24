@@ -151,11 +151,9 @@
   font-size: 18px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 30px;
+  margin-bottom: 20px;
 }
 
-.dados_email {
-  margin-bottom: 40px;
-}
 
 .orcamento_dados ul {
   padding-right: 60px;
