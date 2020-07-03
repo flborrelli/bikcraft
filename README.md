@@ -16,9 +16,8 @@ The course's main goal is to build a responsive website from scratch. Beginning 
 
 ## Technologies
 
-#### Mobile
-
 - JavaScript
+- PHP
 - SendGrid
 - HTML5
 - CSS3
